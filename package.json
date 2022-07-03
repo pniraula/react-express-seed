@@ -1,0 +1,12 @@
+{
+    "name": "docker-services",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Prabesh",
+    "license": "MIT",
+    "scripts": {
+      "dev:up": "docker-compose -f docker-compose.yml up",
+      "dev:down": "docker-compose -f docker-compose.yml down",
+      "dev:uninstall": "docker-compose -f docker-compose.yml down --rmi all"
+    }
+}
